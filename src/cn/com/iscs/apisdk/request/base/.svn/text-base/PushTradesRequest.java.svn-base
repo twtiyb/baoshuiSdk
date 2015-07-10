@@ -1,0 +1,48 @@
+package cn.com.iscs.apisdk.request.base;
+
+import java.util.List;
+
+import cn.com.iscs.apisdk.domain.out.Order;
+import cn.com.iscs.apisdk.request.AbstractRequest;
+import cn.com.iscs.apisdk.request.IscsRequest;
+import cn.com.iscs.apisdk.response.base.PushTradesResponse;
+
+/**
+ * 订单导入
+ * @author 徐纯
+ *
+ *  2015-6-24 下午03:44:44
+ */
+public class PushTradesRequest extends AbstractRequest implements IscsRequest {
+
+	Long count;
+	List<Order> trades;
+	
+	
+	public Long getCount() {
+		return count;
+	}
+
+	public void setCount(Long count) {
+		this.count = count;
+	}
+
+	public List<Order> getTrades() {
+		return trades;
+	}
+
+	public void setTrades(List<Order> trades) {
+		this.trades = trades;
+	}
+
+	@Override
+	public String getApiMethod() {
+		return "pushTrades";
+	}
+
+	@Override
+	public Class getResponseClass() {
+		return PushTradesResponse.class;
+	}
+	 
+}

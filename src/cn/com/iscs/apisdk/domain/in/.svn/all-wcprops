@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/domain/in
+END
+TransferDet.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/iscs_ecm/!svn/ver/27467/branches/dev/src/cn/com/iscs/apisdk/domain/in/TransferDet.java
+END
+Transfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/iscs_ecm/!svn/ver/27467/branches/dev/src/cn/com/iscs/apisdk/domain/in/Transfer.java
+END
+PurchaseDet.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/domain/in/PurchaseDet.java
+END
+Purchase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/domain/in/Purchase.java
+END
+PrReturnHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/iscs_ecm/!svn/ver/27467/branches/dev/src/cn/com/iscs/apisdk/domain/in/PrReturnHeader.java
+END
+OrderReturn.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/iscs_ecm/!svn/ver/27432/branches/dev/src/cn/com/iscs/apisdk/domain/in/OrderReturn.java
+END

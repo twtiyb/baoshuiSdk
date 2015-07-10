@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/util
+END
+AuthUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/util/AuthUtil.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/util/StringUtil.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/util/FileUtil.java
+END

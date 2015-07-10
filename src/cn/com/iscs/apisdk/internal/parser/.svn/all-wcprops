@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/internal/parser
+END
+ParserFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/internal/parser/ParserFactory.java
+END
+JsonParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/internal/parser/JsonParser.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/iscs_ecm/!svn/ver/27473/branches/dev/src/cn/com/iscs/apisdk/internal/parser/Parser.java
+END
+XmlParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/iscs_ecm/!svn/ver/27473/branches/dev/src/cn/com/iscs/apisdk/internal/parser/XmlParser.java
+END

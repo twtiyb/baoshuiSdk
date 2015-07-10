@@ -1,0 +1,10 @@
+package cn.com.iscs.apisdk.request;
+
+import cn.com.iscs.apisdk.response.AbstractResponse;
+
+
+public interface IscsRequest<T extends AbstractResponse> {
+		String getApiMethod();
+		
+	   public Class<T> getResponseClass();
+}

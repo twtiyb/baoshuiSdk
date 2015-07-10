@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/iscs_ecm/!svn/ver/27467/branches/dev/src/cn/com/iscs/apisdk/request/out
+END
+InventoryCheckRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iscs_ecm/!svn/ver/27467/branches/dev/src/cn/com/iscs/apisdk/request/out/InventoryCheckRequest.java
+END
+PurchaseStateQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iscs_ecm/!svn/ver/27467/branches/dev/src/cn/com/iscs/apisdk/request/out/PurchaseStateQueryRequest.java
+END
+InventoryQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iscs_ecm/!svn/ver/27467/branches/dev/src/cn/com/iscs/apisdk/request/out/InventoryQueryRequest.java
+END
+TradeQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/request/out/TradeQueryRequest.java
+END

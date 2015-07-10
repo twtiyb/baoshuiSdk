@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base
+END
+CancelBackTradeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/CancelBackTradeRequest.java
+END
+QueryProductsRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/iscs_ecm/!svn/ver/27432/branches/dev/src/cn/com/iscs/apisdk/request/base/QueryProductsRequest.java
+END
+TradeStatusQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/iscs_ecm/!svn/ver/27432/branches/dev/src/cn/com/iscs/apisdk/request/base/TradeStatusQueryRequest.java
+END
+PurchaseInStockQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/PurchaseInStockQueryRequest.java
+END
+AuthorityQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/iscs_ecm/!svn/ver/27396/branches/dev/src/cn/com/iscs/apisdk/request/base/AuthorityQueryRequest.java
+END
+CancelReturnHeaderRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/CancelReturnHeaderRequest.java
+END
+ExpressTrackRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/ExpressTrackRequest.java
+END
+TradeDeliverQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/TradeDeliverQueryRequest.java
+END
+CancelPurchaseRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/CancelPurchaseRequest.java
+END
+BackTradeInStockQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/BackTradeInStockQueryRequest.java
+END
+PushTradesRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/iscs_ecm/!svn/ver/27432/branches/dev/src/cn/com/iscs/apisdk/request/base/PushTradesRequest.java
+END
+PrReturnHeaderStatusQueryRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/iscs_ecm/!svn/ver/27476/branches/dev/src/cn/com/iscs/apisdk/request/base/PrReturnHeaderStatusQueryRequest.java
+END
+CancelTradeRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/iscs_ecm/!svn/ver/27432/branches/dev/src/cn/com/iscs/apisdk/request/base/CancelTradeRequest.java
+END

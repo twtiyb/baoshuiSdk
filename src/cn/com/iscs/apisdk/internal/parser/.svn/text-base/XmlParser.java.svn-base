@@ -1,0 +1,23 @@
+
+package cn.com.iscs.apisdk.internal.parser;
+
+import cn.com.iscs.apisdk.IscsException;
+import cn.com.iscs.apisdk.response.AbstractResponse;
+
+public class XmlParser  implements Parser {
+
+    public XmlParser() {
+    }
+
+	@Override
+	public <T extends AbstractResponse> T parse(String s, Class<T> class1) throws IscsException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String writeValueAsString(Object object) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}
