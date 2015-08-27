@@ -152,9 +152,14 @@ public class FileUtil {
 			conn = getConnection(new URL(url), "POST", contentType);
 			conn.setConnectTimeout(connectTimeout);
 			conn.setReadTimeout(readTimeout);
+			System.out.println(conn.getURL().toString());
+			System.out.println(new String(content));
+			
 			out = conn.getOutputStream();
 			out.write(content);
 			rsp = getResponseAsString(conn, "utf-8");
+			System.out.println(rsp);
+			
 		} finally {
 			if (out != null) {
 				out.close();

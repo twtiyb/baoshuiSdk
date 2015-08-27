@@ -6,6 +6,15 @@ public class NotifyWmsPackageRequest implements IscsRequest {
 	public String orderCode;
 	public String tmsServiceCode;
 	public String tmsOrderCode;
+	public String printFileUrl;
+
+	public String getPrintFileUrl() {
+		return printFileUrl;
+	}
+
+	public void setPrintFileUrl(String printFileUrl) {
+		this.printFileUrl = printFileUrl;
+	}
 
 	public String getOrderCode() {
 		return orderCode;

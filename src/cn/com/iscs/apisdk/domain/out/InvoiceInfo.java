@@ -1,11 +1,5 @@
 package cn.com.iscs.apisdk.domain.out;
 
-/**
- * 
- * @author 徐纯
- *	发票信息
- *  2015-7-10 上午11:19:09
- */
 public class InvoiceInfo {
 	public String billType;
 	public String billTitle;
