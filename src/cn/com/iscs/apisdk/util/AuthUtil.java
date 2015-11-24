@@ -1,8 +1,8 @@
 package cn.com.iscs.apisdk.util;
 
-import java.security.MessageDigest;
-
 import cn.com.iscs.apisdk.util.codec.Base64;
+
+import java.security.MessageDigest;
 
 public class AuthUtil {
 	
@@ -60,11 +60,12 @@ public class AuthUtil {
 	 */
 	public static void main(String[] args)
 	{
-		String dataString = "{\"storeCode\":\"ZHISHENGXIAN\",\"sellerUserId\":\"ZHISHENGXIAN\"}";
-		String key = "ZHISHENGXIAN";
-		System.out.println(dataString);
-		System.out.println(key);
-		System.out.print(sign(dataString+key));
+//		String dataString = "{\ "\":\"ZHISHENGXIAN\",\"sellerUserId\":\"ZHISHENGXIAN\"}";
+//		String key = "ZHISHENGXIAN";
+//		System.out.println(dataString);
+//		System.out.println(key);
+//		System.out.println(getMD5(dataString+key));
+//		System.out.print(sign(dataString+key));
 	}
 
 }

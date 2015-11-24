@@ -1,15 +1,13 @@
 package cn.com.iscs.apisdk.internal.parser;
 
-import java.text.SimpleDateFormat;
-
 import cn.com.iscs.apisdk.IscsException;
 import cn.com.iscs.apisdk.Response;
-
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+
+import java.text.SimpleDateFormat;
 
 public class JsonParser implements Parser {
 
@@ -25,7 +23,7 @@ public class JsonParser implements Parser {
 	public Response parse(String json, Class responseClass) throws IscsException {
 		Response response = null;
 		try {
-			response = mapper.readValue(json, responseClass);
+			response = (Response) mapper.readValue(json, responseClass);
 		} catch (Exception e) {
 			throw new IscsException(e);
 		}
