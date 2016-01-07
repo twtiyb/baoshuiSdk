@@ -1,11 +1,11 @@
 package cn.com.iscs.apisdk.request.out;
 
-import java.util.Date;
-import java.util.List;
-
 import cn.com.iscs.apisdk.domain.in.OrderItem;
 import cn.com.iscs.apisdk.domain.out.InvoiceInfo;
 import cn.com.iscs.apisdk.request.IscsRequest;
+
+import java.util.Date;
+import java.util.List;
 
 public class WmsOrderNotifyRequest implements IscsRequest {
 	public String storeCode;
@@ -188,10 +188,20 @@ public class WmsOrderNotifyRequest implements IscsRequest {
 
 	public String tmsServiceCode;
 	public String tmsOrderCode;
+	public String customsReleaseMethod;
 
 	public String receiverZipCode;
 	public String receiverProvince;
 	public String receiverCity;
+
+	public String getCustomsReleaseMethod() {
+		return customsReleaseMethod;
+	}
+
+	public void setCustomsReleaseMethod(String customsReleaseMethod) {
+		this.customsReleaseMethod = customsReleaseMethod;
+	}
+
 	public String receiverCounty;
 	public String receiverAddress;
 	public String receiverName;
