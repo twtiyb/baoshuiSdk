@@ -4,9 +4,9 @@ import java.util.Date;
 import java.util.List;
 
 import cn.com.iscs.apisdk.domain.in.OrderItem;
-import cn.com.iscs.apisdk.request.IscsRequest;
+import cn.com.iscs.apisdk.request.AbstractRequest;
 
-public class PurchaseOrderNotifyRequest implements IscsRequest {
+public class PurchaseOrderNotifyRequest extends AbstractRequest {
 	public String storeCode;
 	public String sellerUserId;
 	public String orderCode;

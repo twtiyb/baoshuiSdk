@@ -2,12 +2,12 @@ package cn.com.iscs.apisdk.request.out;
 
 import cn.com.iscs.apisdk.domain.in.OrderItem;
 import cn.com.iscs.apisdk.domain.out.InvoiceInfo;
-import cn.com.iscs.apisdk.request.IscsRequest;
+import cn.com.iscs.apisdk.request.AbstractRequest;
 
 import java.util.Date;
 import java.util.List;
 
-public class WmsOrderNotifyRequest implements IscsRequest {
+public class WmsOrderNotifyRequest extends AbstractRequest {
 	public String storeCode;
 	public String sellerUserId;
 	public String orderCode;

@@ -1,8 +1,8 @@
 package cn.com.iscs.apisdk.request.out;
 
-import cn.com.iscs.apisdk.request.IscsRequest;
+import cn.com.iscs.apisdk.request.AbstractRequest;
 
-public class CancelWmsOrderRequest implements IscsRequest {
+public class CancelWmsOrderRequest extends AbstractRequest {
 	public String orderCode;
 
 	public String getOrderCode() {

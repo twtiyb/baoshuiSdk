@@ -2,7 +2,7 @@ package cn.com.iscs.apisdk.request;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-public interface IscsRequest {
+public abstract class AbstractRequest {
 	@JsonIgnore
-	String getMethod();
+	public abstract String getMethod();
 }

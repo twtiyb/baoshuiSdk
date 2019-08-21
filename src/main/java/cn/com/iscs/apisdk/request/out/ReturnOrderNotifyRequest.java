@@ -4,9 +4,9 @@ import java.util.Date;
 import java.util.List;
 
 import cn.com.iscs.apisdk.domain.in.OrderItem;
-import cn.com.iscs.apisdk.request.IscsRequest;
+import cn.com.iscs.apisdk.request.AbstractRequest;
 
-public class ReturnOrderNotifyRequest implements IscsRequest {
+public class ReturnOrderNotifyRequest extends AbstractRequest {
 	String storeCode;
 	String tmsServiceCode;
 	String orderCode;

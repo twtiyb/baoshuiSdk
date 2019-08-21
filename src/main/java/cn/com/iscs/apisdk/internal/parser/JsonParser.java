@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.text.SimpleDateFormat;
+import java.util.Map;
 
 public class JsonParser implements Parser {
 
@@ -37,6 +38,11 @@ public class JsonParser implements Parser {
 		} catch (JsonProcessingException e) {
 		}
 		return value;
+	}
+
+	@Override
+	public Map<String, String> writeVaueAsMap(Object object) {
+		return mapper.convertValue(object, Map.class);
 	}
 
 }

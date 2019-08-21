@@ -3,7 +3,7 @@ package cn.com.iscs.apisdk;
 
 import cn.com.iscs.apisdk.internal.parser.Parser;
 import cn.com.iscs.apisdk.internal.parser.ParserFactory;
-import cn.com.iscs.apisdk.request.IscsRequest;
+import cn.com.iscs.apisdk.request.AbstractRequest;
 import cn.com.iscs.apisdk.util.AuthUtil;
 import cn.com.iscs.apisdk.util.FileUtil;
 import cn.com.iscs.apisdk.util.StringUtil;
@@ -43,7 +43,7 @@ public class DefaultClient {
 		this.readTimeout = readTimeout;
 	}
 
-	public Response execute(IscsRequest request) throws IscsException {
+	public Response execute(AbstractRequest request) throws IscsException {
 		try {
 			String data = null;
 			if ("json".equals(this.format)) {

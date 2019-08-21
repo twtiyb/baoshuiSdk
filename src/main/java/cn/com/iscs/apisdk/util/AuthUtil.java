@@ -6,7 +6,7 @@ import java.security.MessageDigest;
 
 public class AuthUtil {
 
-	private static String getMD5(String orgin) {
+	public static String getMD5(String orgin) {
 		return getMD5(orgin, "utf-8");
 	}
 
